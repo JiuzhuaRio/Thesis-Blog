@@ -23,7 +23,14 @@
 	left: 20%;
 	width: 60%;
 	top: 10%;
-	line-height: 2;
+	line-height: 1.7;
+}
+.text-pic-big{
+	width: 100%;
+}
+.part-text{
+	position: relative;
+	padding-top: 30px;
 }
 #topbar{
 	grid-area: 1/2/2/3;
