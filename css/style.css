@@ -23,9 +23,9 @@
 .copy{
 	position: relative;
 	padding-bottom: 20vh;
-	left: 20%;
-	width: 60%;
-	top: 10%;
+	left: 20vw;
+	width: 60vw;
+	top: 10vh;
 	line-height: 2;
 	text-indent: 0px;
 }
@@ -47,7 +47,7 @@
 #bigredbox1{
 	position: fixed;
 	top: 30vh;
-	left: 0;
+	right: 20vw;
 	height: 40vh;
 	width: 80vw;
 	background-color: #ee2222;
@@ -57,7 +57,7 @@
 #bigredbox2{
 	position: fixed;
 	top: 30vh;
-	left: 0;
+	right:20vw;
 	height: 40vh;
 	width: 80vw;
 	background-color: #dd1100;
