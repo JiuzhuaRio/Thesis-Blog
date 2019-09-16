@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300,400,700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Rubik+Mono+One&display=swap');
 *{
 	box-sizing: border-box;
 	margin: 0;
@@ -20,7 +22,7 @@
 	grid-template-columns:0 100vw;
 	grid-template-rows:0 100vh 0;
 }
-.copy{
+.blogpost{
 	position: relative;
 	padding-bottom: 20vh;
 	left: 20vw;
@@ -28,13 +30,14 @@
 	top: 10vh;
 	line-height: 2;
 	text-indent: 0px;
+	z-index: 5;
 }
-.copy h1, h2, h3{
+.blogpost h1, h2, h3{
 	padding-top: 20px;
 	text-indent: 0px;
 	font-weight: 700;
 }
-.copy p，ul{
+.blogpost p，ul{
 	font-size: 18px;
 }
 .text-pic-big{
@@ -77,6 +80,11 @@
 	background-color: #FFF;
 	overflow: scroll;
 
+}
+#goback{
+	position: relative;
+	font-size: 20px;
+	font-family: 'Rubik Mono One', sans-serif;
 }
 #date{
 	position: relative;
