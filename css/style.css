@@ -43,9 +43,18 @@
 .text-pic-big{
 	width: 100%;
 }
+.text-pic-small{
+	width: 50%;
+	float: left;
+	padding-bottom: 30px;
+}
 .part-text{
 	position: relative;
 	padding-top: 30px;
+}
+.part-text ul{
+	margin: 0;
+  padding: 0;
 }
 #bigredbox1{
 	position: fixed;
